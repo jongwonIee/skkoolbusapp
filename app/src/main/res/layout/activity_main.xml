@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.skkoolbus.skkoolbus.MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/skkbus_ic_lion"
+        android:id="@+id/icLionView"
+        android:layout_marginTop="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/skkbus_ic_skkuniv"
+        android:id="@+id/icSkkuUnivView"
+        android:layout_marginTop="86dp"
+        android:layout_below="@+id/icLionView"
+        android:layout_alignLeft="@+id/icLionView"
+        android:layout_alignStart="@+id/icLionView" />
+</RelativeLayout>
